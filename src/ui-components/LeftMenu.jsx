@@ -4,7 +4,7 @@ import Toolbar from "./Toolbar.jsx";
 function LeftMenu() {
   return (
     <div className={css.container}>
-      <Toolbar type="primary" />
+      <Toolbar location={["vertical"]} type="primary" />
     </div>
   );
 }

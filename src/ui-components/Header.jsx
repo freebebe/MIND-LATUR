@@ -4,7 +4,7 @@ import IconButton from "./IconButton.jsx";
 function Header() {
   return (
     <div className={css.container}>
-      <IconButton name="menu" onClick={() => alert("click")} />
+      <IconButton name="menu" onClick={() => alert("check")} />
       <div className={css.title}>Header</div>
     </div>
   );

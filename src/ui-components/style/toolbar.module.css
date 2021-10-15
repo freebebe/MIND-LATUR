@@ -1,0 +1,46 @@
+.container {
+  position: absolute;
+  padding: 10px 0;
+  display: flex;
+  opacity: 0.3;
+  transition: all 0.3s cubic-bezier(.25, .46, .45, .94)
+}
+
+.container:hover {
+  opacity: 1;
+}
+
+.button {
+  padding: 3px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+  left: auto;
+  justify-content: flex-end;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+  top: auto;
+  justify-content: flex-end;
+}
+
+.horisontal {
+  height: 42px;
+  flex-flow: row;
+}
+
+.vertical {
+  height: auto;
+  width: 42px;
+  flex-flow: column;
+}
